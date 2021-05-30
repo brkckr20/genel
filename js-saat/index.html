@@ -38,6 +38,9 @@
             if(suankiDakika<10){
                 suankiDakika = "0" + suankiDakika;
             }
+            if(suankiSaat<10){
+                suankiSaat = "0" + suankiSaat;
+            }
 
             saat = suankiSaat + ":" + suankiDakika + ":"+ suankiSaniye;
             myDiv.innerHTML = saat;
